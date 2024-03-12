@@ -1,27 +1,31 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.sideNav {
+  background-color: #bd5d38 !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.navlink {
+  color: rgba(255, 255, 255, 0.5);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.title {
+  color: #343a40;
+}
+
+.subTitle {
+  color: #bd5d38;
+}
+
+.address {
+  color: #868e96;
+}
+
+.active-white {
+  color: rgb(244 244 245);
+}
+
+.img-bdr {
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }

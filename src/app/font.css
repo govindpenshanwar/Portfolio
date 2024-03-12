@@ -1,0 +1,17 @@
+/* font.css */
+
+/* Import the Saira Extra Condensed font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700&display=swap');
+
+/* Define the font family */
+body {
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+/* Define font styles for specific elements if needed */
+.title {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+}
+
+/* Add more styles as needed */
